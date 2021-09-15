@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova&family=Montserrat:wght@400;500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-color: #2f4353;
+    background-image: linear-gradient(315deg, #2f4353 0%, #d2ccc4 74%);
+    display: flex;
+    flex-direction: column;
+    /* align-items: center;
+    justify-content: center; */
+    min-height: 100vh;
+
+}
+
+.container {
+    margin: auto auto;
+    margin-top: 35px;
+    background-color: #fff;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    box-shadow: 4px 4px 8px 0px rgba(184, 187, 193, 0.5);
+    width: 400px;
+    max-width: 100%;
+
+    margin-bottom: 30px;
+}
+
+.header {
+    background-color: rgb(236, 236, 236);
+
+    padding: 20px 40px;
+    border-bottom: 1px solid rgba(201, 201, 201, 0.76);
+}
+
+.header h2 {
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.form {
+    padding: 30px 40px;
+}
+
+.form-control {
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.form-control label {
+    font-size: 20px;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.form-control input {
+    border: 2px solid #f0f0f0f0;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    display: block;
+    font-family: inherit;
+    font-size: 16px;
+    width: 100%;
+    padding: 10px;
+}
+
+.form-control input::placeholder {
+    font-family: 'Bona Nova', serif;
+    font-size: 16px;
+}
+
+.form-control i {
+    font-size: 18px;
+    position: absolute;
+    top: 40px;
+    right: 10px;
+    visibility: hidden;
+}
+
+.form-control small {
+    font-size: 14px;
+    font-weight: 500;
+    visibility: hidden;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.form button {
+    background-color: rgb(220, 220, 220);
+    border-bottom: 1px solid rgba(240, 240, 240, 0.849);
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 35px;
+    font-weight: 400;
+    font-size: 20px;
+    border: none;
+    color: rgb(0, 0, 0);
+    display: block;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    font-size: 16px;
+    padding: 10px;
+    width: 100%;
+}
+
+/* Success vs Error Classes */
+.form-control.success input {
+    border-color: #2ecc71;
+}
+
+.form-control.error input {
+    border-color: #e74c3c;
+}
+
+.form-control.success i.fa-check-circle {
+    color: #2ecc71;
+    visibility: visible;
+}
+
+.form-control.error i.fa-exclamation-circle {
+    color: #e74c3c;
+    visibility: visible;
+}
+
+.form-control.error small {
+    color: #e74c3c;
+    visibility: visible;
+}
+
+
+
+/* Footer */
+footer {
+    margin-top: auto;
+    color: white;
+    text-align: center;
+    background-color: #485461;
+    background-image: linear-gradient(315deg, #485461 0%, #28313b 74%);
+}
+
+footer a {
+    padding-top: 15px;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+footer a:last-of-type {
+    margin-left: 3rem;
+}
+
+footer p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: white;
+    font-weight: 500;
+    padding: 15px 10px 10px 10px;
+    margin: 0 0;
+}
+
+.fab {
+    color: white;
+}
+
+.fa-linkedin:hover {
+    color: rgba(230, 230, 230, 0.85);
+    opacity: 0.8;
+}
+
+.fa-github:hover {
+    color: rgba(230, 230, 230, 0.85);
+    opacity: 0.8;
+}
+
+/* Tasks:
+1. Make it responsive
+2. Add backend */
